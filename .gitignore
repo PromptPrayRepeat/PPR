@@ -1,0 +1,21 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Node (if any tooling/scripts end up JS-based)
+node_modules/
+npm-debug.log*
+
+# Python (if any tooling/scripts end up Python-based)
+__pycache__/
+*.pyc
+.venv/
+
+# .ppr/ data directory — per-project choice, not a hard default.
+# Most projects using this plugin will want to COMMIT .ppr/log.jsonl and
+# reports so Examen's team-retro mode and Council's shared context work
+# across a team. Uncomment the line below only for projects that opt out
+# of sharing that history.
+# .ppr/

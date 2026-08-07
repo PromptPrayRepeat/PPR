@@ -1,0 +1,13 @@
+{
+  "name": "ppr",
+  "displayName": "Prompt, Pray, Repeat",
+  "repository": "PromptPrayRepeat/PPR",
+  "version": "0.1.0",
+  "description": "A suite of Claude Code tools for reflective agentic development: Council, Examen, Retreat, and (future) the PPR loop.",
+  "commands": {
+    "council": "skills/council/SKILL.md",
+    "examen": "skills/examen/SKILL.md",
+    "retreat": "skills/retreat/SKILL.md"
+  },
+  "notes": "ppr (loop) command intentionally omitted from v0.1.0 — see docs/ppr-loop.md. Add once built."
+}
